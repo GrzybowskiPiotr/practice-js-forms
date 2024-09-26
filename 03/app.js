@@ -1,6 +1,5 @@
 const inputFiles = document.querySelector("input");
 const ul = document.querySelector("ul");
-// inputFiles.setAttribute("accept", "image/*");
 
 function newImageItem(file, liElement) {
   const newLiElement = liElement.cloneNode(true);
